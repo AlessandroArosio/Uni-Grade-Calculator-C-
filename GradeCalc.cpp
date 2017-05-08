@@ -27,7 +27,7 @@ int main()
 	do
 	{
 		cout << "Input the module's name: " << endl;
-		cin >> name;
+		getline(cin, name);
 		(*course).push_back(name); //pushing module's name
 
 		do {
