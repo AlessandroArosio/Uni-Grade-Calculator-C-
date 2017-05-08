@@ -56,6 +56,8 @@ int main()
 	for (i = 0; i < courseWork->size(); ++i){
 	cout << "Module " << (*course)[i] << ", you got an overall mark of: " << (*courseWork)[i] << " out of 100" << endl;
 	}
+	delete course;
+	delete courseWork;
 	return 0;
 }
 
